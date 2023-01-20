@@ -1,22 +1,46 @@
+/* VARIABILI */
+
 :root{
     --bg-dargray: rgb(44, 62, 80);
+    --bg-blue: rgb(26, 188, 156);
     --color-white: white;
 }
 
-.header{
+/* RESET */
+
+img{
+    width: 100%;
+}
+
+/* GENERALI */
+
+.row.debug{
+    border: 1px solid red;
+}
+
+.col-auto.debug{
+    border: 1px solid yellow;
+}
+
+/* HEADER */
+
+.ps_header{
     background-color: var(--bg-dargray);
     color: var(--color-white);
 }
 
-.header.debug{
+.ps_header.debug{
     min-height: 90px;
+    padding: 10px 0;
 }
 
-.row.debug{
-    border: 1px solid yellow;
+/* SECTION START */
+
+.section_start{
+    background-color: var(--bg-blue);
 }
 
-.col-auto.debug{
-    border: 1px solid yellowgreen;
+.section_start.debug{
+    min-height: 500px;
+    padding: 20px 0;
 }
-
