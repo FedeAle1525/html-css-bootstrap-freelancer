@@ -2,6 +2,7 @@
 
 :root{
     --bg-dargray: rgb(44, 62, 80);
+    --bg-lightgray: rgb(58, 84, 109);
     --bg-blue: rgb(26, 188, 156);
     --color-white: white;
 }
@@ -78,4 +79,16 @@ img{
 
 .section_contact .col-12.debug{
     min-height: 100px;
+}
+
+/* FOOTER INFO */
+
+.footer_info{
+    background-color: var(--bg-lightgray);
+    color:var(--color-white);
+}
+
+.footer_info.debug{
+    min-height: 100px;
+    padding: 20px 0;
 }
