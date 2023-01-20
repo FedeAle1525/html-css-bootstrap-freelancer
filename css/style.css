@@ -92,3 +92,15 @@ img{
     min-height: 100px;
     padding: 20px 0;
 }
+
+/* FOOTER CREDITS */
+
+.footer_credits{
+    background-color: var(--bg-dargray);
+    color: var(--color-white);
+}
+
+.footer_credits.debug{
+    min-height: 100px;
+    padding: 20px 0;
+}
