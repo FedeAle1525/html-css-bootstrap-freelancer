@@ -68,3 +68,14 @@ img{
     padding: 20px 0;
     background-color: var(--bg-blue);
 }
+
+/* SECTION CONTACT */
+
+.section_contact.debug{
+    min-height: 300px;
+    padding: 20px 0;
+}
+
+.section_contact .col-12.debug{
+    min-height: 100px;
+}
