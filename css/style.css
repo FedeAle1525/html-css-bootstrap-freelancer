@@ -1,0 +1,22 @@
+:root{
+    --bg-dargray: rgb(44, 62, 80);
+    --color-white: white;
+}
+
+.header{
+    background-color: var(--bg-dargray);
+    color: var(--color-white);
+}
+
+.header.debug{
+    min-height: 90px;
+}
+
+.row.debug{
+    border: 1px solid yellow;
+}
+
+.col-auto.debug{
+    border: 1px solid yellowgreen;
+}
+
