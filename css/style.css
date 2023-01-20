@@ -19,7 +19,8 @@ img{
 }
 
 .col-auto.debug,
-.col-4.debug{
+.col-4.debug,
+.col-6.debug{
     border: 1px solid yellow;
 }
 
@@ -58,4 +59,12 @@ img{
     min-height: 260px;
     border: 1px solid green;
     border-radius: 10px;
+}
+
+/* SECTION ABOUT */
+
+.section_about.debug{
+    min-height: 300px;
+    padding: 20px 0;
+    background-color: var(--bg-blue);
 }
