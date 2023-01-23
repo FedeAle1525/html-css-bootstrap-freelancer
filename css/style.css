@@ -147,4 +147,6 @@ a{
 .footer_credits{
     background-color: var(--bg-dargray);
     color: var(--color-white);
+    font-size: 10px;
 }
+
