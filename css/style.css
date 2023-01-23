@@ -15,14 +15,8 @@ img{
 
 /* GENERALI */
 
-.row.debug{
-    border: 1px solid red;
-}
-
-.col-auto.debug,
-.col-4.debug,
-.col-6.debug{
-    border: 1px solid yellow;
+.uppercase{
+    text-transform: uppercase;
 }
 
 /* HEADER */
