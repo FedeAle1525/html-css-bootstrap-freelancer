@@ -104,6 +104,15 @@ img{
     min-height: 100px;
 }
 
+.section_contact input.message{
+    height: 100px;
+}
+
+.section_contact button{
+    background-color: var(--bg-blue);
+    border-color: var(--bg-blue);
+}
+
 /* FOOTER INFO */
 
 .footer_info{
