@@ -13,6 +13,15 @@ img{
     width: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
 /* GENERALI */
 
 .uppercase{
@@ -118,6 +127,18 @@ img{
 .footer_info{
     background-color: var(--bg-lightgray);
     color:var(--color-white);
+}
+
+.footer_info span{
+    color: var(--bg-blue);
+}
+
+.footer_info a.social{
+    display: block;
+    height: 40px;
+    aspect-ratio: 1;
+    border: 1px solid;
+    border-radius: 50%;
 }
 
 
