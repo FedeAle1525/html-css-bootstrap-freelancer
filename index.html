@@ -11,11 +11,12 @@
 <body>
 
     <!-- Header -->
-    <header class="ps_header debug">
+    <header class="ps_header text-white py-3">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-auto debug">Start Bootstrap</div>
-                <div class="col-auto debug">Menù</div>
+            <!-- Si poteva dire alla riga di generare delle colonne con grandezza auto con "row-cols-auto" -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">Start Bootstrap</div>
+                <div class="col-auto">Menù</div>
             </div>
         </div>
     </header>
@@ -25,10 +26,11 @@
     <main>
 
         <!-- Section Start -->
-        <section class="section_start debug">
+        <section class="section_start text-white py-5">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-auto debug">
+                <div class="row">
+                    <!-- Meglio usare con col-12 con contenuto centrato per evitare che quest'ultimo vada a capo quando si restringe troppo -->
+                    <div class="col-12 text-center">
                         <div class="ps_card-start">
                             <img src="./img/avatar.svg" alt="Avatar">
 
@@ -43,11 +45,11 @@
         <!-- Fine Section Start -->
 
         <!-- Section Portfolio -->
-        <section class="section_portfolio debug">
+        <section class="section_portfolio py-5">
             <div class="container">
                 <!-- Riga con Titolo -->
-                <div class="row justify-content-center">
-                    <div class="col-auto">
+                <div class="row">
+                    <div class="col-12 text-center">
                         <h2>Portfolio</h2>
                         <p>elemento grafico</p>
                     </div>
@@ -93,11 +95,11 @@
         <!-- Fine Section Portfolio -->
 
         <!-- Sezione About -->
-        <section class="section_about debug">
+        <section class="section_about text-white py-5">
             <div class="container">
                 <!-- Riga con Titolo -->
                 <div class="row justify-content-center">
-                    <div class="col-auto">
+                    <div class="col-9 col-md-10 text-center">
                         <h2>About</h2>
                         <p>elemento grafico</p>
                     </div>
@@ -105,13 +107,13 @@
                 <!-- Fine Titolo -->
 
                 <!-- Riga Colonne Testo -->
-                <div class="row">
-                    <div class="col-12 col-md-6 debug">
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-5">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et debitis repellat minus officiis! Nobis dolorem deleniti sapiente veniam magni deserunt!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit odio vero deserunt unde excepturi pariatur delectus tempore, dicta corrupti?
                         </p>
                     </div>
-                    <div class="col-12 col-md-6 debug">
+                    <div class="col-9 col-md-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis dolorem repellat ab harum officia? Odit quo optio voluptatibus eum?
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error corrupti blanditiis tempora, ducimus nisi itaque delectus aut ipsum fuga animi!
                         </p>
@@ -120,7 +122,7 @@
 
                 <!-- Riga con bottone -->
                 <div class="row justify-content-center">
-                    <div class="col-auto">
+                    <div class="col-9 col-md-10 text-center">
                         <span>Bottone</span>
                     </div>
                 </div>
@@ -129,12 +131,12 @@
         <!-- Fine Sezione About -->
 
         <!-- Sezione Contact -->
-        <section class="section_contact debug">
+        <section class="section_contact py-5">
 
             <div class="container">
                 <!-- Riga con Titolo -->
-                <div class="row justify-content-center">
-                    <div class="col-auto">
+                <div class="row">
+                    <div class="col-12 text-center">
                         <h2>Contact me</h2>
                         <p>elemento grafico</p>
                     </div>
@@ -142,12 +144,12 @@
                 <!-- Fine Titolo -->
 
                 <!-- Riga Form -->
-                <div class="row">
-                    <div class="col-12">Name</div>
-                    <div class="col-12">Email Address</div>
-                    <div class="col-12">Phone Number</div>
-                    <div class="col-12 debug">Message</div>
-                    <div class="col-12">Bottone Send</div>
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-10">Name</div>
+                    <div class="col-9 col-md-10">Email Address</div>
+                    <div class="col-9 col-md-10">Phone Number</div>
+                    <div class="col-9 col-md-10 debug">Message</div>
+                    <div class="col-9 col-md-10">Bottone Send</div>
                 </div>
                 <!-- Fine Riga Form -->
             </div>
@@ -161,7 +163,7 @@
     <footer>
 
         <!-- Footer Info -->
-        <section class="footer_info debug">
+        <section class="footer_info py-5">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-12 col-md-auto">Location</div>
@@ -173,7 +175,7 @@
         <!-- Fine Footer Info -->
 
         <!-- Footer Credits -->
-        <section class="footer_credits debug">
+        <section class="footer_credits py-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-auto">Credits</div>

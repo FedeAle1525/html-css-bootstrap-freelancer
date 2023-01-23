@@ -29,12 +29,6 @@ img{
 
 .ps_header{
     background-color: var(--bg-dargray);
-    color: var(--color-white);
-}
-
-.ps_header.debug{
-    min-height: 90px;
-    padding: 10px 0;
 }
 
 /* SECTION START */
@@ -43,17 +37,12 @@ img{
     background-color: var(--bg-blue);
 }
 
-.section_start.debug{
-    min-height: 500px;
-    padding: 20px 0;
+.ps_card-start > img{
+    width: 20%;
 }
 
 /* SECTION PORTFOLIO */
 
-.section_portfolio.debug{
-    min-height: 500px;
-    padding: 20px 0;
-}
 
 .ps_card-portfolio.debug{
     /* min-width: 360px; */
@@ -64,20 +53,14 @@ img{
 
 /* SECTION ABOUT */
 
-.section_about.debug{
-    min-height: 300px;
-    padding: 20px 0;
+.section_about{
     background-color: var(--bg-blue);
 }
 
 /* SECTION CONTACT */
 
-.section_contact.debug{
-    min-height: 300px;
-    padding: 20px 0;
-}
 
-.section_contact .col-12.debug{
+.section_contact .col-9.debug{
     min-height: 100px;
 }
 
@@ -88,19 +71,10 @@ img{
     color:var(--color-white);
 }
 
-.footer_info.debug{
-    min-height: 100px;
-    padding: 20px 0;
-}
 
 /* FOOTER CREDITS */
 
 .footer_credits{
     background-color: var(--bg-dargray);
     color: var(--color-white);
-}
-
-.footer_credits.debug{
-    min-height: 100px;
-    padding: 20px 0;
 }
