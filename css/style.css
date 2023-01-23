@@ -35,6 +35,49 @@ img{
     width: 20%;
 }
 
+.ps_title {
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+
+.ps_star{
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 15px !important;
+}
+
+.ps_star::before{
+    content: '';
+    display: block;
+    background-color: currentColor;
+    background-color: 999px;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.ps_star::after{
+    content: '';
+    display: block;
+    background-color: currentColor;
+    border-radius: 999px;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%);
+}
+
+.ps_subtitle{
+    font-size: 20px;
+}
+
 /* SECTION PORTFOLIO */
 
 
